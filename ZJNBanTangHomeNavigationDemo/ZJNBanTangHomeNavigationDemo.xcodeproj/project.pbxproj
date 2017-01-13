@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E300BA3B1E248D38002F1165 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E300BA3A1E248D38002F1165 /* main.m */; };
+		E300BA3E1E248D38002F1165 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E300BA3D1E248D38002F1165 /* AppDelegate.m */; };
+		E300BA411E248D38002F1165 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E300BA401E248D38002F1165 /* ViewController.m */; };
+		E300BA441E248D38002F1165 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E300BA421E248D38002F1165 /* Main.storyboard */; };
+		E300BA461E248D38002F1165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E300BA451E248D38002F1165 /* Assets.xcassets */; };
+		E300BA491E248D38002F1165 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E300BA471E248D38002F1165 /* LaunchScreen.storyboard */; };
+		E300BA541E248D38002F1165 /* ZJNBanTangHomeNavigationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E300BA531E248D38002F1165 /* ZJNBanTangHomeNavigationDemoTests.m */; };
+		E300BA5F1E248D39002F1165 /* ZJNBanTangHomeNavigationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E300BA5E1E248D39002F1165 /* ZJNBanTangHomeNavigationDemoUITests.m */; };
+		E300BA6F1E248D80002F1165 /* ZJNHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E300BA6E1E248D80002F1165 /* ZJNHeaderView.m */; };
+		E300BA771E24B37C002F1165 /* UIButton+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = E300BA761E24B37C002F1165 /* UIButton+Size.m */; };
+		E300BA7B1E24B3C6002F1165 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E300BA7A1E24B3C6002F1165 /* UIView+Extension.m */; };
+		E300BA7E1E24B3E4002F1165 /* UIImage+ZJNImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E300BA7D1E24B3E4002F1165 /* UIImage+ZJNImage.m */; };
+		E300BA8E1E24C0AA002F1165 /* home_email_black.png in Resources */ = {isa = PBXBuildFile; fileRef = E300BA801E24C0AA002F1165 /* home_email_black.png */; };
+		E300BA8F1E24C0AA002F1165 /* home_email_red.png in Resources */ = {isa = PBXBuildFile; fileRef = E300BA811E24C0AA002F1165 /* home_email_red.png */; };
+		E300BA901E24C0AA002F1165 /* home_emared.png in Resources */ = {isa = PBXBuildFile; fileRef = E300BA821E24C0AA002F1165 /* home_emared.png */; };
+		E300BA911E24C0AA002F1165 /* home_like.png in Resources */ = {isa = PBXBuildFile; fileRef = E300BA831E24C0AA002F1165 /* home_like.png */; };
+		E300BA921E24C0AA002F1165 /* home_search_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E300BA841E24C0AA002F1165 /* home_search_icon.png */; };
+		E300BA931E24C0AA002F1165 /* home_watch.png in Resources */ = {isa = PBXBuildFile; fileRef = E300BA851E24C0AA002F1165 /* home_watch.png */; };
+		E300BA941E24C0AA002F1165 /* nar_bgbg.png in Resources */ = {isa = PBXBuildFile; fileRef = E300BA861E24C0AA002F1165 /* nar_bgbg.png */; };
+		E300BA951E24C0AA002F1165 /* tab_bar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = E300BA871E24C0AA002F1165 /* tab_bar_bg.png */; };
+		E300BA961E24C0AA002F1165 /* tab_publish_add.png in Resources */ = {isa = PBXBuildFile; fileRef = E300BA881E24C0AA002F1165 /* tab_publish_add.png */; };
+		E300BA971E24C0AA002F1165 /* tab_publish_add_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = E300BA891E24C0AA002F1165 /* tab_publish_add_pressed.png */; };
+		E300BA981E24C0AA002F1165 /* tab_我的.png in Resources */ = {isa = PBXBuildFile; fileRef = E300BA8A1E24C0AA002F1165 /* tab_我的.png */; };
+		E300BA991E24C0AA002F1165 /* tab_我的_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = E300BA8B1E24C0AA002F1165 /* tab_我的_pressed.png */; };
+		E300BA9A1E24C0AA002F1165 /* tab_首页.png in Resources */ = {isa = PBXBuildFile; fileRef = E300BA8C1E24C0AA002F1165 /* tab_首页.png */; };
+		E300BA9B1E24C0AA002F1165 /* tab_首页_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = E300BA8D1E24C0AA002F1165 /* tab_首页_pressed.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E300BA501E248D38002F1165 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E300BA2E1E248D38002F1165 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E300BA351E248D38002F1165;
+			remoteInfo = ZJNBanTangHomeNavigationDemo;
+		};
+		E300BA5B1E248D39002F1165 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E300BA2E1E248D38002F1165 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E300BA351E248D38002F1165;
+			remoteInfo = ZJNBanTangHomeNavigationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E300BA361E248D38002F1165 /* ZJNBanTangHomeNavigationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJNBanTangHomeNavigationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E300BA3A1E248D38002F1165 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E300BA3C1E248D38002F1165 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E300BA3D1E248D38002F1165 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E300BA3F1E248D38002F1165 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E300BA401E248D38002F1165 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E300BA431E248D38002F1165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E300BA451E248D38002F1165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E300BA481E248D38002F1165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E300BA4A1E248D38002F1165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E300BA4F1E248D38002F1165 /* ZJNBanTangHomeNavigationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJNBanTangHomeNavigationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E300BA531E248D38002F1165 /* ZJNBanTangHomeNavigationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJNBanTangHomeNavigationDemoTests.m; sourceTree = "<group>"; };
+		E300BA551E248D38002F1165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E300BA5A1E248D39002F1165 /* ZJNBanTangHomeNavigationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJNBanTangHomeNavigationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E300BA5E1E248D39002F1165 /* ZJNBanTangHomeNavigationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJNBanTangHomeNavigationDemoUITests.m; sourceTree = "<group>"; };
+		E300BA601E248D39002F1165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E300BA6D1E248D80002F1165 /* ZJNHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNHeaderView.h; sourceTree = "<group>"; };
+		E300BA6E1E248D80002F1165 /* ZJNHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNHeaderView.m; sourceTree = "<group>"; };
+		E300BA751E24B37C002F1165 /* UIButton+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Size.h"; sourceTree = "<group>"; };
+		E300BA761E24B37C002F1165 /* UIButton+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Size.m"; sourceTree = "<group>"; };
+		E300BA791E24B3C6002F1165 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		E300BA7A1E24B3C6002F1165 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		E300BA7C1E24B3E4002F1165 /* UIImage+ZJNImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZJNImage.h"; sourceTree = "<group>"; };
+		E300BA7D1E24B3E4002F1165 /* UIImage+ZJNImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZJNImage.m"; sourceTree = "<group>"; };
+		E300BA801E24C0AA002F1165 /* home_email_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_email_black.png; sourceTree = "<group>"; };
+		E300BA811E24C0AA002F1165 /* home_email_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_email_red.png; sourceTree = "<group>"; };
+		E300BA821E24C0AA002F1165 /* home_emared.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_emared.png; sourceTree = "<group>"; };
+		E300BA831E24C0AA002F1165 /* home_like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_like.png; sourceTree = "<group>"; };
+		E300BA841E24C0AA002F1165 /* home_search_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_search_icon.png; sourceTree = "<group>"; };
+		E300BA851E24C0AA002F1165 /* home_watch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_watch.png; sourceTree = "<group>"; };
+		E300BA861E24C0AA002F1165 /* nar_bgbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nar_bgbg.png; sourceTree = "<group>"; };
+		E300BA871E24C0AA002F1165 /* tab_bar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_bar_bg.png; sourceTree = "<group>"; };
+		E300BA881E24C0AA002F1165 /* tab_publish_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_publish_add.png; sourceTree = "<group>"; };
+		E300BA891E24C0AA002F1165 /* tab_publish_add_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_publish_add_pressed.png; sourceTree = "<group>"; };
+		E300BA8A1E24C0AA002F1165 /* tab_我的.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_我的.png"; sourceTree = "<group>"; };
+		E300BA8B1E24C0AA002F1165 /* tab_我的_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_我的_pressed.png"; sourceTree = "<group>"; };
+		E300BA8C1E24C0AA002F1165 /* tab_首页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_首页.png"; sourceTree = "<group>"; };
+		E300BA8D1E24C0AA002F1165 /* tab_首页_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_首页_pressed.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E300BA331E248D38002F1165 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E300BA4C1E248D38002F1165 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E300BA571E248D39002F1165 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E300BA2D1E248D38002F1165 = {
+			isa = PBXGroup;
+			children = (
+				E300BA381E248D38002F1165 /* ZJNBanTangHomeNavigationDemo */,
+				E300BA521E248D38002F1165 /* ZJNBanTangHomeNavigationDemoTests */,
+				E300BA5D1E248D39002F1165 /* ZJNBanTangHomeNavigationDemoUITests */,
+				E300BA371E248D38002F1165 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E300BA371E248D38002F1165 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E300BA361E248D38002F1165 /* ZJNBanTangHomeNavigationDemo.app */,
+				E300BA4F1E248D38002F1165 /* ZJNBanTangHomeNavigationDemoTests.xctest */,
+				E300BA5A1E248D39002F1165 /* ZJNBanTangHomeNavigationDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E300BA381E248D38002F1165 /* ZJNBanTangHomeNavigationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E300BA3C1E248D38002F1165 /* AppDelegate.h */,
+				E300BA3D1E248D38002F1165 /* AppDelegate.m */,
+				E300BA3F1E248D38002F1165 /* ViewController.h */,
+				E300BA401E248D38002F1165 /* ViewController.m */,
+				E300BA7F1E24C0AA002F1165 /* banTangImage */,
+				E300BA701E24B0F8002F1165 /* Category */,
+				E300BA6C1E248D5C002F1165 /* View  */,
+				E300BA421E248D38002F1165 /* Main.storyboard */,
+				E300BA451E248D38002F1165 /* Assets.xcassets */,
+				E300BA471E248D38002F1165 /* LaunchScreen.storyboard */,
+				E300BA4A1E248D38002F1165 /* Info.plist */,
+				E300BA391E248D38002F1165 /* Supporting Files */,
+			);
+			path = ZJNBanTangHomeNavigationDemo;
+			sourceTree = "<group>";
+		};
+		E300BA391E248D38002F1165 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E300BA3A1E248D38002F1165 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E300BA521E248D38002F1165 /* ZJNBanTangHomeNavigationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E300BA531E248D38002F1165 /* ZJNBanTangHomeNavigationDemoTests.m */,
+				E300BA551E248D38002F1165 /* Info.plist */,
+			);
+			path = ZJNBanTangHomeNavigationDemoTests;
+			sourceTree = "<group>";
+		};
+		E300BA5D1E248D39002F1165 /* ZJNBanTangHomeNavigationDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E300BA5E1E248D39002F1165 /* ZJNBanTangHomeNavigationDemoUITests.m */,
+				E300BA601E248D39002F1165 /* Info.plist */,
+			);
+			path = ZJNBanTangHomeNavigationDemoUITests;
+			sourceTree = "<group>";
+		};
+		E300BA6C1E248D5C002F1165 /* View  */ = {
+			isa = PBXGroup;
+			children = (
+				E300BA6D1E248D80002F1165 /* ZJNHeaderView.h */,
+				E300BA6E1E248D80002F1165 /* ZJNHeaderView.m */,
+			);
+			name = "View ";
+			sourceTree = "<group>";
+		};
+		E300BA701E24B0F8002F1165 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E300BA751E24B37C002F1165 /* UIButton+Size.h */,
+				E300BA761E24B37C002F1165 /* UIButton+Size.m */,
+				E300BA791E24B3C6002F1165 /* UIView+Extension.h */,
+				E300BA7A1E24B3C6002F1165 /* UIView+Extension.m */,
+				E300BA7C1E24B3E4002F1165 /* UIImage+ZJNImage.h */,
+				E300BA7D1E24B3E4002F1165 /* UIImage+ZJNImage.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		E300BA7F1E24C0AA002F1165 /* banTangImage */ = {
+			isa = PBXGroup;
+			children = (
+				E300BA801E24C0AA002F1165 /* home_email_black.png */,
+				E300BA811E24C0AA002F1165 /* home_email_red.png */,
+				E300BA821E24C0AA002F1165 /* home_emared.png */,
+				E300BA831E24C0AA002F1165 /* home_like.png */,
+				E300BA841E24C0AA002F1165 /* home_search_icon.png */,
+				E300BA851E24C0AA002F1165 /* home_watch.png */,
+				E300BA861E24C0AA002F1165 /* nar_bgbg.png */,
+				E300BA871E24C0AA002F1165 /* tab_bar_bg.png */,
+				E300BA881E24C0AA002F1165 /* tab_publish_add.png */,
+				E300BA891E24C0AA002F1165 /* tab_publish_add_pressed.png */,
+				E300BA8A1E24C0AA002F1165 /* tab_我的.png */,
+				E300BA8B1E24C0AA002F1165 /* tab_我的_pressed.png */,
+				E300BA8C1E24C0AA002F1165 /* tab_首页.png */,
+				E300BA8D1E24C0AA002F1165 /* tab_首页_pressed.png */,
+			);
+			path = banTangImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E300BA351E248D38002F1165 /* ZJNBanTangHomeNavigationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E300BA631E248D39002F1165 /* Build configuration list for PBXNativeTarget "ZJNBanTangHomeNavigationDemo" */;
+			buildPhases = (
+				E300BA321E248D38002F1165 /* Sources */,
+				E300BA331E248D38002F1165 /* Frameworks */,
+				E300BA341E248D38002F1165 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJNBanTangHomeNavigationDemo;
+			productName = ZJNBanTangHomeNavigationDemo;
+			productReference = E300BA361E248D38002F1165 /* ZJNBanTangHomeNavigationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E300BA4E1E248D38002F1165 /* ZJNBanTangHomeNavigationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E300BA661E248D39002F1165 /* Build configuration list for PBXNativeTarget "ZJNBanTangHomeNavigationDemoTests" */;
+			buildPhases = (
+				E300BA4B1E248D38002F1165 /* Sources */,
+				E300BA4C1E248D38002F1165 /* Frameworks */,
+				E300BA4D1E248D38002F1165 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E300BA511E248D38002F1165 /* PBXTargetDependency */,
+			);
+			name = ZJNBanTangHomeNavigationDemoTests;
+			productName = ZJNBanTangHomeNavigationDemoTests;
+			productReference = E300BA4F1E248D38002F1165 /* ZJNBanTangHomeNavigationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E300BA591E248D39002F1165 /* ZJNBanTangHomeNavigationDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E300BA691E248D39002F1165 /* Build configuration list for PBXNativeTarget "ZJNBanTangHomeNavigationDemoUITests" */;
+			buildPhases = (
+				E300BA561E248D39002F1165 /* Sources */,
+				E300BA571E248D39002F1165 /* Frameworks */,
+				E300BA581E248D39002F1165 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E300BA5C1E248D39002F1165 /* PBXTargetDependency */,
+			);
+			name = ZJNBanTangHomeNavigationDemoUITests;
+			productName = ZJNBanTangHomeNavigationDemoUITests;
+			productReference = E300BA5A1E248D39002F1165 /* ZJNBanTangHomeNavigationDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E300BA2E1E248D38002F1165 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ShangYuKeJi;
+				TargetAttributes = {
+					E300BA351E248D38002F1165 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3UG295PK9T;
+						ProvisioningStyle = Automatic;
+					};
+					E300BA4E1E248D38002F1165 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E300BA351E248D38002F1165;
+					};
+					E300BA591E248D39002F1165 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E300BA351E248D38002F1165;
+					};
+				};
+			};
+			buildConfigurationList = E300BA311E248D38002F1165 /* Build configuration list for PBXProject "ZJNBanTangHomeNavigationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E300BA2D1E248D38002F1165;
+			productRefGroup = E300BA371E248D38002F1165 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E300BA351E248D38002F1165 /* ZJNBanTangHomeNavigationDemo */,
+				E300BA4E1E248D38002F1165 /* ZJNBanTangHomeNavigationDemoTests */,
+				E300BA591E248D39002F1165 /* ZJNBanTangHomeNavigationDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E300BA341E248D38002F1165 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E300BA991E24C0AA002F1165 /* tab_我的_pressed.png in Resources */,
+				E300BA911E24C0AA002F1165 /* home_like.png in Resources */,
+				E300BA941E24C0AA002F1165 /* nar_bgbg.png in Resources */,
+				E300BA8F1E24C0AA002F1165 /* home_email_red.png in Resources */,
+				E300BA491E248D38002F1165 /* LaunchScreen.storyboard in Resources */,
+				E300BA971E24C0AA002F1165 /* tab_publish_add_pressed.png in Resources */,
+				E300BA901E24C0AA002F1165 /* home_emared.png in Resources */,
+				E300BA461E248D38002F1165 /* Assets.xcassets in Resources */,
+				E300BA931E24C0AA002F1165 /* home_watch.png in Resources */,
+				E300BA981E24C0AA002F1165 /* tab_我的.png in Resources */,
+				E300BA9B1E24C0AA002F1165 /* tab_首页_pressed.png in Resources */,
+				E300BA961E24C0AA002F1165 /* tab_publish_add.png in Resources */,
+				E300BA921E24C0AA002F1165 /* home_search_icon.png in Resources */,
+				E300BA951E24C0AA002F1165 /* tab_bar_bg.png in Resources */,
+				E300BA441E248D38002F1165 /* Main.storyboard in Resources */,
+				E300BA9A1E24C0AA002F1165 /* tab_首页.png in Resources */,
+				E300BA8E1E24C0AA002F1165 /* home_email_black.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E300BA4D1E248D38002F1165 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E300BA581E248D39002F1165 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E300BA321E248D38002F1165 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E300BA7B1E24B3C6002F1165 /* UIView+Extension.m in Sources */,
+				E300BA6F1E248D80002F1165 /* ZJNHeaderView.m in Sources */,
+				E300BA771E24B37C002F1165 /* UIButton+Size.m in Sources */,
+				E300BA411E248D38002F1165 /* ViewController.m in Sources */,
+				E300BA3E1E248D38002F1165 /* AppDelegate.m in Sources */,
+				E300BA7E1E24B3E4002F1165 /* UIImage+ZJNImage.m in Sources */,
+				E300BA3B1E248D38002F1165 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E300BA4B1E248D38002F1165 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E300BA541E248D38002F1165 /* ZJNBanTangHomeNavigationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E300BA561E248D39002F1165 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E300BA5F1E248D39002F1165 /* ZJNBanTangHomeNavigationDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E300BA511E248D38002F1165 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E300BA351E248D38002F1165 /* ZJNBanTangHomeNavigationDemo */;
+			targetProxy = E300BA501E248D38002F1165 /* PBXContainerItemProxy */;
+		};
+		E300BA5C1E248D39002F1165 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E300BA351E248D38002F1165 /* ZJNBanTangHomeNavigationDemo */;
+			targetProxy = E300BA5B1E248D39002F1165 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E300BA421E248D38002F1165 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E300BA431E248D38002F1165 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E300BA471E248D38002F1165 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E300BA481E248D38002F1165 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E300BA611E248D39002F1165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E300BA621E248D39002F1165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E300BA641E248D39002F1165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3UG295PK9T;
+				INFOPLIST_FILE = ZJNBanTangHomeNavigationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SYKJ.ZJNBanTangHomeNavigationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E300BA651E248D39002F1165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3UG295PK9T;
+				INFOPLIST_FILE = ZJNBanTangHomeNavigationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SYKJ.ZJNBanTangHomeNavigationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E300BA671E248D39002F1165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJNBanTangHomeNavigationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SYKJ.ZJNBanTangHomeNavigationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJNBanTangHomeNavigationDemo.app/ZJNBanTangHomeNavigationDemo";
+			};
+			name = Debug;
+		};
+		E300BA681E248D39002F1165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJNBanTangHomeNavigationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SYKJ.ZJNBanTangHomeNavigationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJNBanTangHomeNavigationDemo.app/ZJNBanTangHomeNavigationDemo";
+			};
+			name = Release;
+		};
+		E300BA6A1E248D39002F1165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJNBanTangHomeNavigationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SYKJ.ZJNBanTangHomeNavigationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJNBanTangHomeNavigationDemo;
+			};
+			name = Debug;
+		};
+		E300BA6B1E248D39002F1165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJNBanTangHomeNavigationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SYKJ.ZJNBanTangHomeNavigationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJNBanTangHomeNavigationDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E300BA311E248D38002F1165 /* Build configuration list for PBXProject "ZJNBanTangHomeNavigationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E300BA611E248D39002F1165 /* Debug */,
+				E300BA621E248D39002F1165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E300BA631E248D39002F1165 /* Build configuration list for PBXNativeTarget "ZJNBanTangHomeNavigationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E300BA641E248D39002F1165 /* Debug */,
+				E300BA651E248D39002F1165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E300BA661E248D39002F1165 /* Build configuration list for PBXNativeTarget "ZJNBanTangHomeNavigationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E300BA671E248D39002F1165 /* Debug */,
+				E300BA681E248D39002F1165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E300BA691E248D39002F1165 /* Build configuration list for PBXNativeTarget "ZJNBanTangHomeNavigationDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E300BA6A1E248D39002F1165 /* Debug */,
+				E300BA6B1E248D39002F1165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E300BA2E1E248D38002F1165 /* Project object */;
+}
